@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
+    "baseUrl": "./",
+    "paths": {
+      "@common/*": [
+        "common/*"
+      ],
+      "@core/*": [
+        "core/*"
+      ],
+      "@apps/*": [
+        "apps/*"
+      ]
+    }
+  },
+  "include": [
+    "apps/**/*",
+    "common/**/*",
+    "core/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

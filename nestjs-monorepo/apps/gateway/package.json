@@ -1,0 +1,12 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "description": "Gateway application for user management",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "nest build",
+    "start:dev": "nest start --watch",
+    "start:prod": "node dist/main.js"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "Authentication microservice for user management",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "nest build",
+    "start:dev": "nest start --watch",
+    "start:prod": "node dist/main.js"
+  }
+}

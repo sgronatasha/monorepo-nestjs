@@ -1,0 +1,16 @@
+{
+  "monorepo": true,
+  "root": "apps",
+  "projects": {
+    "gateway": {
+      "type": "application",
+      "root": "apps/gateway",
+      "entryFile": "main"
+    },
+    "authentication": {
+      "type": "application",
+      "root": "apps/authentication",
+      "entryFile": "main"
+    }
+  }
+}
